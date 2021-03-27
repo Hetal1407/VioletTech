@@ -22,6 +22,7 @@ body{
   height: 100%;
   background: url("bkk.png");
   background-size: cover;
+  text-align: center;
 }
 
 section{
@@ -170,7 +171,7 @@ li{
 
 
 
-/*Start photos*/
+/Start photos/
 .section-heading{
   text-align: center;
   margin-bottom: 10rem;
@@ -193,7 +194,7 @@ li{
 
 
 
-/*sercices-------------*/
+/sercices-------------/
 
 
 .services-section{
@@ -453,19 +454,34 @@ footer {
     font-family: montserrat-light, sans-serif;
     font-size: 15px;
     line-height: 2;
-    text-align: justify;
+    display: inline;
+    text-align: center;
     color: rgba(255, 255, 255, .3)
+
+}
+
+.row_footer_main{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+}
+.footer-logo{
+  margin: auto;
+  text-align: center;
+  /display: inline;/
+  width: 100%;
 }
 
 footer .copy{
   text-align: center;
   text-decoration: underline;
-  
+
 }
 footer .violet-des{
   padding: 10px 15px;
   text-align: justify;
   color: #f8edeb;
+  text-align: center;
 }
 footer h4 {
     color: #fff;
@@ -477,6 +493,7 @@ footer h4 {
 
 footer a {
     color: #fff
+
 }
 
 footer a:hover,
@@ -503,18 +520,17 @@ footer .row {
 }
 
 .footer-logo {
-    display: block;
-    margin: -.6rem 0 3.6rem;
-    padding: 0;
-    outline: 0;
-    border: none;
-    width: 130px;
-    height: 28px;
 
-    background-size: 85px 28px;
+    /margin: -.6rem 0 3.6rem;/
+
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+
+
 
     -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out
+    transition: all .3s ease-in-out;
 }
 
 .footer-subscribe .subscribe-form {
@@ -649,7 +665,8 @@ footer .row {
 
 @media only screen and (max-width:900px) {
     .footer-main .left {
-        padding-right: 20px
+        padding-right: 20px;
+        text-align: center;
     }
 
     .footer-main .right {
@@ -659,7 +676,8 @@ footer .row {
 
 @media only screen and (max-width:800px) {
     footer .row {
-        max-width: 600px
+        max-width: 600px;
+        text-align: center;
     }
 
     .footer-main .left {
